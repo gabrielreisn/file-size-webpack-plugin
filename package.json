@@ -1,0 +1,31 @@
+{
+  "name": "file-size-webpack-plugin",
+  "version": "0.1.0-beta-01",
+  "description": "webpack plugin for listing file sizes on different modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielreisn/file-size-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "Gabriel Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielreisn/file-size-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/gabrielreisn/file-size-webpack-plugin#readme",
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "brotli-size": "^4.0.0",
+    "colors": "^1.4.0",
+    "filesize": "^6.0.1",
+    "gzip-size": "^5.1.1",
+    "terser": "^4.4.1"
+  }
+}
